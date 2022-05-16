@@ -59,7 +59,7 @@ const series: ApexAxisChartSeries | ApexNonAxisChartSeries = [
   { name: 'series1', data: [31, 120, 10, 28, 61, 18, 109] }
 ]
 
-function Dashboard() {
+const Dashboard = () => {
   return (
     <Flex direction="column" h="100vh">
       <Header />

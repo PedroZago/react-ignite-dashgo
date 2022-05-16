@@ -5,10 +5,10 @@ interface PaginationItemProps {
   isCurrent?: boolean;
 }
 
-export function PaginationItem({
+export const PaginationItem = ({
   isCurrent = false,
   number
-}: PaginationItemProps) {
+}: PaginationItemProps) => {
   if (isCurrent) {
     return (
       <Button

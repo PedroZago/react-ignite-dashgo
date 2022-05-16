@@ -6,7 +6,7 @@ import { Header } from '../../components/Header'
 import { Pagination } from '../../components/Pagination'
 import { Sidebar } from '../../components/Sidebar'
 
-function UserList() {
+const UserList = () => {
   const isWideVersion = useBreakpointValue({
     base: false,
     lg: true
