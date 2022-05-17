@@ -33,8 +33,6 @@ const CreateUser = () => {
 
   const handleCreateUser: SubmitHandler<FieldValues> = async (values) => {
     await new Promise(resolve => setTimeout(resolve, 2000))
-
-    console.log(values)
   }
 
   return (
